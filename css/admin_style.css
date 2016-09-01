@@ -1,0 +1,105 @@
+/*============================
+  Content:
+	1. Admin Panel CSS
+	2. Shortcodes
+
+==============================*/
+
+
+/*=============================
+	1. Admin Panel CSS
+===============================*/
+.redux-group-tab table th { vertical-align: middle; }
+.redux-group-tab table tr:nth-child(1n+1) { 
+	width: 100%;
+	text-align: left;
+	border-bottom: none;
+}
+.redux-group-tab table tr:nth-child(3n+2){
+	text-align: left;
+	border-bottom: 2px solid #cccccc;	
+}
+
+.redux-group-tab table tr:nth-child(3n+3) td:after {
+	display: block;
+	white-space: pre;
+	content: "\A \A ";
+}
+.redux-group-tab table tr td fieldset label { 
+	position: relative; 
+	top: 10px; 
+}
+.redux-group-tab table tr td fieldset .description { 
+	position: relative; 
+	top: 15px; 
+}
+
+
+/* CSS for Customizer */
+ul li.customize-control-redux-media { 
+	color: #993333;
+	font-weight: bold; 
+	text-transform: uppercase; 
+	font-size: 18px; 
+}
+ul li.customize-control-redux-media, ul li.customize-control-redux-text { 
+	border-bottom: none !important; 
+}
+ul li.customize-control-redux-textarea { 
+	border-bottom: 2px solid #ccc !important; 
+}
+
+
+/*=================================
+	2. Shortcodes
+===================================*/
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable {
+  z-index: 99999999;
+}
+.shortcode-shortcode-dialog{
+	height: 700px !important;
+	overflow: scroll;
+	width: 100%;
+}
+.shortcode-options { 
+	margin-top: 20px; 
+}
+.shortcode-options label {
+	margin-bottom: 7px;
+}
+.shortcode-options label, .wp-picker-container {
+	text-align: left;
+	font-weight: bold;
+	display: block;
+}
+.shortcode-options select, .shortcode-options input {
+	width: 100%;
+	margin-top: 3px;
+}
+.shortcode-options select > option {
+	margin-top: 20px !important;
+}
+.shortcode-options span {
+	font-size: 11px;
+}
+a.button {
+	margin-top: 30px !important;
+	margin-bottom: 30px !important;
+	float: right;
+}
+.shortcode-options small {
+	display: block;
+	width: 100%;
+}
+small.description { 
+	font-size: 10px;
+	text-align: left;
+	text-indent: 3px;
+}
+textarea#widget-portfolio_shortcode_widget-2-shortcode-textarea {
+	height: 170px;
+}
+
+
+
+/*# sourceMappingURL=admin_style.css.map */
