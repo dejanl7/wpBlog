@@ -1,4 +1,5 @@
 # wpBlog
-This is WordPress Blog Theme.
-The basic purpose of this theme is to show possibilities of WordPress Development.
-Just like example. Everyone can use this theme totally free.
+This is WordPress Blog Theme. <br>
+The basic purpose of this theme is to show possibilities of WordPress Development. 
+Accent is on backend, rather than frontend and design. Everyone can use this theme totally free. <br>
+Theme involve specific and custom widgets and shortcodes. Also, MCE Api is involved into this project. 
